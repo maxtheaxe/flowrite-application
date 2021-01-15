@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang=en>
+<head>
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+	<meta charset=utf-8>
+	<title>flow app</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet"> 
+	<!-- <script src="assets/js/typer.js"></script> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+	<div class="content">
+		<div id="typewriter"></div>
+		<!-- slightly modified version of one of the demos: -->
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+		<script type="text/javascript">
+			const instance = new Typewriter('#typewriter', {
+			delay: 65
+			});
+
+			instance
+		      .pauseFor(3500)
+		      .typeString("im max<br/>i graduate in may<br/>i study cs<br/>i want a job")
+		      .pauseFor(2500)
+		      .deleteAll()
+		      .typeString("Aaro,<br/><br/>My name is Max Perrello, and I'm a Senior at ")
+		      .typeString("Colby College, where I'm majoring in Computer Science (3.74 ")
+		      .typeString("GPA, Honors Candidate) and minoring in Astronomy and Russian")
+		      .typeString(". Most importantly, though, I'm a passionate software ")
+		      .typeString("developer and creative entrepreneur. I'm a tinkerer at ")
+		      .typeString("heart⁠—I love being challenged and constantly learning ")
+		      .typeString(" new things.<br/><br/>As you’ll see from")
+		      .typeString("  <a href='https://github.com/maxtheaxe'>my Github</a>, ")
+		      .typeString("I am capable of working both independently and with others, ")
+		      .typeString("and am extraordinarily motivated when I find something that")
+		      .typeString(" is interesting to me. I’ve started my own company and ")
+		      .typeString("managed teams of my peers at hackathons.<br/><br/>")
+		      .typeString("I am contacting you in hopes that I can be of help to ")
+		      .typeString("you as you continue to innovate and develop your business. ")
+		      .typeString("I am interested in employment after my graduation ")
+		      .typeString("(in May of 2021) and believe I could make a strong ")
+		      .typeString("contribution to your organization. I’m very enthusiastic, ")
+		      .typeString("hard-working, and have significant technology skills ")
+		      .typeString("as you’ll see from my attached resume.<br/><br/>")
+		      .typeString("Thank you for your time and consideration.<br/><br/>")
+		      .typeString("Sincerely,<br/><br/>Max Perrello")
+		      // I am contacting you in hopes that I can be of help to you as you continue to innovate and develop your business. I am interested in employment after my graduation (in May of 2021) and believe I could make a strong contribution to your organization. I’m very enthusiastic, hard-working, and have significant technology skills as you’ll see from my attached resume.
+		      .pause()
+		      .start();
+		</script>
+	</div>
+</body>
+</html>
