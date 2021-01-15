@@ -2,11 +2,12 @@ html {
 	background: #f5f5f5;
 }
 .content {
-	position: absolute;
+	/* only changed bit for mobile is below */
+	/*position: absolute;
 	left: 50%;
 	top: 50%;
 	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);*/
 	margin: auto;
 	text-align: center;
 }
