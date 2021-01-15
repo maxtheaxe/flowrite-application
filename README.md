@@ -1,2 +1,2 @@
 # flowrite-application
-simple, ridiclous application for flowrite
+simple, ridiculous application for flowrite
