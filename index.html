@@ -5,17 +5,14 @@
 	<meta charset=utf-8>
 	<title>flow app</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet"> 
-	<!-- <script src="assets/js/typer.js"></script> -->
-	<script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
 	<!-- detect and redirect to mobile-usable version (lazy, im sorry) -->
-	<script> 
-		var md = new MobileDetect(window.navigator.userAgent);
-		console.log( window.navigator.userAgent );
-		console.log( md.mobile() );
-		// if mobile device, redirect to mobile page (no centering, lazy)
-		if (! md.mobile() === null) { // null means not a mobile device
+	<!-- i'm sorry, flowrite, i'm just trying to get this email out to you -->
+	<script type="text/javascript">
+		<!--
+		if (screen.width <= 699) {
 			window.location.href = "mobile.html"
 		}
+		//-->
 	</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
